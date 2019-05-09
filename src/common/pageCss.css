@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-parent {
+    display: flex;
+    align-items: center;
+}
+
+.input-text {
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+    border: 1px solid #ccc;
+    border-radius: 30px; 
+}
+
+.profile-image {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50%; 
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
